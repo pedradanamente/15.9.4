@@ -1,0 +1,17 @@
+	<IfModule mod_rewrite.c>
+		RewriteEngine On
+
+		RewriteRule ^inicio/?$ index.php [NC,L]
+		RewriteRule ^sobre/?$ index.php?p=sobre [NC,L]
+		RewriteRule ^curriculos/?$ index.php?p=curriculos [NC,L]
+		RewriteRule ^vagas/?$ index.php?p=vagas [NC,L]
+		RewriteRule ^estagios/?$ index.php?p=estagios [NC,L]
+		RewriteRule ^cursos/?$ index.php?p=cursos [NC,L]
+		RewriteRule ^minhaconta/?$ index.php?p=minhaconta [NC,L]
+		RewriteRule ^contato/?$ index.php?p=contato [NC,L]
+		RewriteRule ^cadastrar/vaga/?$ index.php?p=cadastrar_vaga [NC,L]
+		RewriteRule ^cadastrar/curriculo/?$ index.php?p=cadastrar_curriculo [NC,L]
+		RewriteRule ^procurar/profissional/?$ index.php?p=procurar_profissional [NC,L]
+
+
+	</IfModule>
